@@ -1,11 +1,12 @@
 {
   "expo": {
     "name": "Recipes",
-    "slug": "recipes_app",
+    "slug": "recipesapp-124",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Icon.png",
     "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
     "splash": {
       "image": "./assets/Splash.png",
       "resizeMode": "cover",
@@ -18,13 +19,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gerroo.recipesapp124"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/Icon.png",
         "backgroundColor": "#42CF7A"
+      },
+      "package": "com.gerroo.recipesapp124"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4cdbbc3-21d3-4df7-a6ad-a7701bc18473"
       }
-    }
+    },
+    "owner": "gerroo"
   }
 }

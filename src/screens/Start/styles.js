@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "space-between",
         flex: 1,
-        marginBottom: 64,
+        marginBottom: 96,
         marginTop: 32,
     },
     logoView: {
